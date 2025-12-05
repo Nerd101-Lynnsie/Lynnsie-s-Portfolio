@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaria Hill – Digital Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121B13; /* Vervain */
+      color: #f7f7f7;
+      line-height: 1.6;
+    }
+    header {
+      background: #2F4731; /* Palm Frond */
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #3D1419; /* Fuschia */
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      border-left: 6px solid #BD6809; /* Papaya */
+      padding-left: 12px;
+    }
+    .project {
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #9A3F4A; /* Paradise */
+    }
+    .skills-list, .contact-list {
+      list-style: none;
+      padding: 0;
+    }
+    .cert-link, .resume-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background: #BD6809; /* Papaya */
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .cert-link:hover, .resume-btn:hover {
+      opacity: 0.8;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      header p { font-size: 1rem; }
+      section { margin: 20px; padding: 20px; }
+      h2 { font-size: 1.4rem; }
+    }
+    /* Hover Animations */
+    .project:hover {
+      transform: scale(1.02);
+      transition: 0.3s ease;
+    }
+    .nav-link:hover {
+      color:#BD6809;
+      transition:0.3s ease;
+    }
+    .resume-btn:hover {
+      transform:scale(1.05);
+      transition:0.3s ease;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <nav style="background:#121B13; padding:15px 20px; position:sticky; top:0; z-index:1000; display:flex; gap:20px;">
+    <a href="#about" style="color:white; text-decoration:none; font-weight:600;" class="nav-link">About</a>
+    <a href="#projects" style="color:white; text-decoration:none; font-weight:600;" class="nav-link">Projects</a>
+    <a href="#skills" style="color:white; text-decoration:none; font-weight:600;" class="nav-link">Skills</a>
+    <a href="#certs" style="color:white; text-decoration:none; font-weight:600;" class="nav-link">Certifications</a>
+    <a href="#contact" style="color:white; text-decoration:none; font-weight:600;" class="nav-link">Contact</a>
+  </nav>
+  <header>
+    <h1>Zaria Hill</h1>
+    <p>Digital Marketing • Social Media • Customer Support • Remote Work</p>
+  </header>
+
+  <section style="text-align:center; background:#2F4731;">
+    <a class="resume-btn" href="resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a motivated high school senior with hands-on experience in digital marketing,
+      social media management, customer service, and business problem solving.
+      I bring strong communication, honesty, and adaptability to every environment — and I am
+      currently seeking remote opportunities where I can continue growing professionally
+      while contributing value to a team.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Social Media & Digital Marketing Intern – M.A.D. Studioz</h3>
+      <p>
+        Managed social media presence across Instagram, TikTok, and Facebook.
+        Created content, tracked analytics, met engagement quotas, and helped drive
+        customer acquisition.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>District C Business Strategy Project – Mission R.A.V.</h3>
+      <p>
+        Collaborated directly with a startup to identify issues in their business plan.
+        Presented a full strategic solution with a team, leading to immediate implementation
+        of key recommendations. Personally commended by the CEO and VP for
+        candor, energy, and insight.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><strong>Professional:</strong> Social Media Management, Digital Marketing Analytics, Content Creation, Project Collaboration, Customer Relations</li>
+      <li><strong>Technical:</strong> POS Systems, Inventory Management, Basic Data Interpretation</li>
+      <li><strong>Soft Skills:</strong> Communication, Reliability, Independent Workflow, Deadline Management, Critical Thinking</li>
+      <li><strong>Remote Work Skills:</strong> Virtual Communication, Time Management, Self-Management, Tech Troubleshooting</li>
+    </ul>
+  </section>
+
+  <section id="certs">
+    <h2>Certifications</h2>
+    <p>Add your certificates as links here (Google Drive, Dropbox, etc.). Example:</p>
+    <a class="cert-link" href="#">Mission R.A.V. Project Certificate</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li>Email: zaria.h.28311@gmail.com</li>
+      <li>Location: Fayetteville, NC</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 Zaria Hill — Digital Portfolio
+  </footer>
+</body>
+</html>
